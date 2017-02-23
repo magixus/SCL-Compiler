@@ -1,0 +1,47 @@
+Oussama
+{
+	%% hello world, this is my programm
+
+	%% Variable part 
+	VAR
+	{
+		CONST Bonjour = '8'; 
+		INTEGER  Val1 | Val2 ;
+		VEC INTEGER Hello [12] ;
+		VEC FLOAT HHello [12] | Bonsoir [50];
+		CHAR C | C1 | C2 | C3 ;
+		VEC CHAR C4[50] ;
+
+	}
+
+	%% code  part
+	CODE
+	{
+		%% Val1 = 1*(2 & 8) & 12 || 15 & 22 ; 
+
+		IF (1*(2 & 8) & 12 || 15):
+
+		    Hello [1] = Hello[5] +12 -12  ;
+		    Val2 = (Hello[2] < 12) & Val1 || 12.0 ;
+		ELSE
+			WHILE ( 5 / 12-Val1)
+		    	C = '2' ;
+		    	IF (1*(2 & 8) & 12 || 0.):
+
+				    Hello [1] = Hello[5] +12 - 25 ;
+				    Val2 = (Hello[2] < 12) & Val1 || 00.16432 ;
+				ELSE
+					WHILE ( 4 * 12-Val1)
+				    	C = C4[10] ;
+				    	FOR(Val1:1:Val1 <65)
+				    		Val2 = Hello[2] / 12 ;
+				    	END
+				    	Val1 = Val1/2 ;
+			    	END
+			    END
+		    	Val2 = Val1 /2 ;
+	    	END
+	    END
+
+	}
+}
